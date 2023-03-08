@@ -20,7 +20,6 @@ nav a{
     text-decoration:none;
     padding: 35px;
 }
-;
 #hero-msg h1{
     text-align: center;
 }
@@ -281,4 +280,17 @@ nav{
     }
 }
 
+#homegrid{
+    display: grid;
+    grid-template-columns:(2,1fr);
+}
 
+#salmon{
+    border: 10px solid #d9c2a3;
+    width: 100%;
+}
+
+#canyon{
+    border: 10px solid #d9c2a3;
+    width: 100%;
+}
