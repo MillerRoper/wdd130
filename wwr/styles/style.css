@@ -47,7 +47,7 @@ main section{
 
 
 header{
-    background-color:silver;
+    background-color: rgb(76, 75, 75);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -280,9 +280,11 @@ nav{
     }
 }
 
-#homegrid{
+.homegrid{
     display: grid;
     grid-template-columns:repeat(2,1fr);
+    grid-gap: 50px;
+    margin: 50px;
 }
 
 #salmon{
@@ -290,7 +292,17 @@ nav{
     width: 100%;
 }
 
-#canyon{
+.canyon{
     border: 10px solid #d9c2a3;
     width: 100%;
+}
+
+
+.salmon{
+    border: 10px solid #d9c2a3;
+    width: 100%;
+}
+
+.grand, .riverinfo{
+    line-height: 1.5em;
 }
