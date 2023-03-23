@@ -1,0 +1,61 @@
+
+header{
+    background-color:#19381F;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a{
+    text-align: center;
+    color:bisque;
+    text-decoration:none;
+    padding: 35px;
+}
+
+.logo{
+    width: 100px;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 200%;
+}
+
+#bluffcreek{
+    display: left;
+    border: 10px solid #492c1d;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right:5%;
+}
+
+.gridhome{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background-color: #9fa4a9;
+}
+
+.paragraph1{
+    align-self: center;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left:5%;
+    line-height: 1.5em;
+}
+
+.footer{
+    padding:20px;
+    background-color: #19381F ;
+}
+
+.tags{
+    color: bisque;
+}
+
+nav a:hover{
+    background-color: bisque;
+    color:#19381F;
+}
