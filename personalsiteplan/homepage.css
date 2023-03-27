@@ -35,7 +35,8 @@ nav{
 .gridhome{
     display:grid;
     grid-template-columns: 50% 50%;
-    background-color: #9fa4a9;
+    background-color:fill #9fa4a9;
+
 }
 
 .paragraph1{
@@ -55,6 +56,7 @@ nav{
 
 .tags{
     color: bisque;
+    background-color: #19381F;
 }
 
 nav a:hover{
@@ -78,3 +80,50 @@ nav a:hover{
      padding: 20px; 
 
   }
+
+  .subgrid1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color: #9fa4a9;
+    align-content: center;
+    padding-bottom: 40px;
+  }
+
+  .bighandy{
+    width: 100%;
+    height: 100%;
+    contain: content;
+    border: 5px solid #492c1d;
+  }
+
+  .bigmap{
+    width: 100%;
+    height: 98%;
+    contain:content;
+    border: 5px solid #492c1d;
+  }
+
+.paragraph2{
+    align-self: center;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left:5%;
+    line-height: 2.5em;
+    font-family: 'Comic Neue', cursive;
+}
+
+.paragraph3{
+    align-self: top;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left:5%;
+    line-height: 2.5em;
+    font-family: 'Comic Neue', cursive;
+}
+
+.fullfooter{
+    background-color: #9fa4a9;
+}
