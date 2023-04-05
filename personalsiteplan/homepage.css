@@ -30,12 +30,13 @@ nav{
     display: center;
     border: 10px solid #492c1d;
     margin-top: 80px;
+    width: 90%;
 }
 
 .gridhome{
     display:grid;
     grid-template-columns: 50% 50%;
-    background-color:fill #9fa4a9;
+    background-color: #9fa4a9;
 
 }
 
@@ -76,7 +77,7 @@ nav a:hover{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
-    width: 94%; 
+    width: 87%; 
      padding: 20px; 
 
   }
@@ -124,7 +125,9 @@ nav a:hover{
     font-family: 'Comic Neue', cursive;
 }
 
-.fullfooter{
+.fullfooter p{
     background-color: #9fa4a9;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
